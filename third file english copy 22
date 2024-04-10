@@ -1,0 +1,44 @@
+SENCHA 7.8 TOOLING PROJECT:
+PROJECT END DATE : JAN 10 BUT ESCALATION ON FEB 8.
+
+
+Tickets:
+
+1. SDK tools -2146 and 2148.
+2. IDEA plugin - 394 and 396.
+3. Otools 107.
+4. VSCP -80.
+
+
+Description:
+SDK TOOLS-2146.
+closure compiler related ticket.
+They are implemented 8 methods, in that methods we have in production/testing/development.
+
+SDK TOOLS -2146.
+1. java 17 to 21 version have to create cmd and ext-gen based application.
+ *)sencha app watch - development.
+ *)sencha app build - production.
+ *)sencha app build testing - testing.
+ *)java 17 to21 after creating ext-gen based app do "npm start".
+2. check on sencha themer, sencha architect, upgrade advisor,generate view,package,theme.
+  *)sencha generate view (viewname).
+  *)sencha generate package (packagename).
+  *)sencha generate theme (theme name).
+
+
+IDEA PLUGIN:
+394 - code completion.
+396 - code completion, inspection, navigation, generation, template creation, refactoring, runconfiguration, spellchecking.
+
+
+VSCP-80:
+packages creation in different cmd  versions.(7.0 t0 7.8).
+package created on app path, ext path, workspace path.
+
+
+OTOOLS -107:
+checking smartflow log for "app creation, npm start, npm run build".
+create application on different theme and template for ext-gen.
+
+
